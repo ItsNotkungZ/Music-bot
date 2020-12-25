@@ -17,7 +17,7 @@ module.exports = {
                     fields: [
                         { name: 'Bot', value: infos },
                         { name: 'Music', value: music },
-                        { name: 'Filters', value: client.filters.map((x) => '`' + x + '`').join(', ') },
+                        { name: 'Filters {prefix}filter <filters>', value: client.filters.map((x) => '`' + x + '`').join(', ') },
                     ],
                     timestamp: new Date(),
                     description: ``,

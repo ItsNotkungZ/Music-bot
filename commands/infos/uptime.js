@@ -2,6 +2,9 @@ module.exports = {
   name: "uptime",
   aliases: ["u"],
   description: "Check the uptime",
+  category: 'Infos',
+  utilisation: '{prefix}uptime',
+
   execute(message) {
     let seconds = Math.floor(message.client.uptime / 1000);
     let minutes = Math.floor(seconds / 60);

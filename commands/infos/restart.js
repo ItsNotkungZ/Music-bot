@@ -1,4 +1,4 @@
-exports.run = async (bot, msg) => {
+exports.run = async (client, message) => {
     await msg.edit(':wave: Restarting. Bye!');
     bot.shutdown(true);
 };

@@ -11,8 +11,8 @@ module.exports = {
 
             message.channel.send({
                 embed: {
-                    color: 'ORANGE',
-                    author: { name: 'Help pannel' },
+                    color: 'BLUE',
+                    author: { name: 'คำสั่งทั้งหมด' },
                     footer: { text: 'Https://github.com/ItsNotkungZ' },
                     fields: [
                         { name: 'Bot', value: infos },
@@ -30,8 +30,8 @@ module.exports = {
 
             message.channel.send({
                 embed: {
-                    color: 'ORANGE',
-                    author: { name: 'Help pannel' },
+                    color: 'BLUE',
+                    author: { name: 'คำสั่งทั้งหมด' },
                     footer: { text: 'Https://github.com/ItsNotkungZ' },
                     fields: [
                         { name: 'Name', value: command.name, inline: true },

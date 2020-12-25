@@ -6,8 +6,8 @@ exports.run = async (bot, msg) => {
 exports.info = {
     name: 'restart',
     usage: 'restart',
-    description: 'Restarts the bot'
+    description: 'Restarts the bot',
     category: 'Infos',
-    utilisation: '{prefix}restart',
+    utilisation: '{prefix}restart'
 
 };

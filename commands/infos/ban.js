@@ -48,7 +48,7 @@ module.exports.config = {
 };
 
 module.exports.help = {
-	name: 'Ban',
+	name: 'ban',
 	category: 'Infos',
 	description: 'Ban a user.',
 	usage: '${PREFIX}ban <user> [reason] [time]',

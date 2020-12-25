@@ -15,7 +15,7 @@ module.exports = {
                     author: { name: 'Commands' },
                     footer: { text: 'Https://github.com/ItsNotkungZ' },
                     fields: [
-                        { name: 'Bot', value: infos },
+                        { name: 'Utility', value: infos },
                         { name: 'Music', value: music },
                         { name: 'Filters {prefix}filter <filters>', value: client.filters.map((x) => '`' + x + '`').join(', ') },
                     ],

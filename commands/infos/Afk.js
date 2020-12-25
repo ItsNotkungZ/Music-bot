@@ -1,6 +1,6 @@
 module.exports = async ({ Constants: { Colors } }, { memberDocument, memberQueryDocument }, msg, commandData) => {
 	if (msg.suffix) {
-		if (msg.suffix === ".") {
+		if (msg.suffix === "&") {
 			memberQueryDocument.set("afk_message", null);
 			msg.send({
 				embed: {

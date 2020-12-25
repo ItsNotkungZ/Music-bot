@@ -33,6 +33,7 @@ module.exports = {
                     color: 'ORANGE',
                     author: { name: 'Help pannel' },
                     footer: { text: 'Https://github.com/ItsNotkungZ' },
+                    fields: [
                         { name: 'Name', value: command.name, inline: true },
                         { name: 'Category', value: command.category, inline: true },
                         { name: 'Aliase(s)', value: command.aliases.length < 1 ? 'None' : command.aliases.join(', '), inline: true },
